@@ -11,7 +11,7 @@ import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
 import Career from './Pages/Career/Career.jsx';
 import Login from './Auth/Login/Login.jsx';
-import Logout from './Auth/Logout/Logout.jsx';
+import Register from './Auth/Register/Register.jsx';
 //import Home from './Pages/Home/Home.jsx';
 
 const router = createBrowserRouter([
@@ -36,8 +36,8 @@ const router = createBrowserRouter([
         element: <Login></Login>
       },
       {
-        path: "/logout",
-        element: <Logout></Logout>
+        path: "/register",
+        element: <Register></Register>
       }
     ]
   },
